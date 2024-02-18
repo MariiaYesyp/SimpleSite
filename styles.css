@@ -20,22 +20,39 @@ a {
     
     line-height:80px;
     height: 80px;
+   
     background-color:black;
     color: white;
 }
 
 .nav-list li {
     display: inline-block;
+    line-height:80px;
+    height: 80px;
     color: white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     
 }
-.nav-list li:nth-child(4) a {
+.a{
+    display: flex;
+    
+}
+.b{
+    margin-left: auto;
+}
+/* .right {
+   
+   flex-direction:row-reverse;
+    /* align-content: flex-end; */
+
+.b{
     
     display: flex;
     /* text-align: right; */
-    
+    /* flex-direction:row-reverse; */
+    /* line-height:80px;
+    height: 80px; */
     height: 30px;
     line-height: 30px;
     padding: 0 15px;
@@ -46,13 +63,13 @@ a {
     border-radius: 5%;
 }
 
-.nav-list li:nth-child(5) a {
-    /* display: block; */
-    display: flex;
-    /* text-align: right; */
+.click{
+    display: block;
+    /* display: flex; */
+    
     height: 35px;
     line-height: 35px;
-    padding: 0 10px;
+    padding: 0px 10px  ;
     background-color:#4C5FD5;
     border-radius: 5%;
     
@@ -61,15 +78,15 @@ a {
     background-color: white;
     color: black;
 }
-.nav-list li:nth-child(5) a:hover {
+.click a:hover {
     background-color: white;
     color: black;
 }
 
-.nav-list li:nth-child(4) a svg { 
+.b a svg { 
     width: lem;
 }   
-.nav-list li:nth-child(5) a svg { 
+.click a svg { 
     width: lem;
 } 
 
