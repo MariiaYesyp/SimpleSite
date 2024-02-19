@@ -35,28 +35,18 @@ a {
     
 }
 .a{
+    
     display: flex;
+    
     
 }
 .b{
+    margin: 0px;
     margin-left: auto;
-}
-/* .right {
-   
-   flex-direction:row-reverse;
-    /* align-content: flex-end; */
-
-.b{
-    
-    display: flex;
-    /* text-align: right; */
-    /* flex-direction:row-reverse; */
-    /* line-height:80px;
-    height: 80px; */
-    height: 30px;
-    line-height: 30px;
-    padding: 0 15px;
-    border: solid;
+    height: 60px;
+    /* line-height: 30px;  */
+    padding: 0px 20px 00px 20px ;
+    border:solid;
     background-color:black;
     color:white;
     border-color: white;
@@ -65,44 +55,53 @@ a {
 
 .click{
     display: block;
-    /* display: flex; */
-    
-    height: 35px;
-    line-height: 35px;
-    padding: 0px 10px  ;
+     height: 66px;
+     margin-top: 0px;
+     margin-right: 40px;
+     margin-left: 20px;
+     /* line-height: 35px;  */
+    padding: 0px 30px  ;  
     background-color:#4C5FD5;
     border-radius: 5%;
     
 }
-.nav-list li:nth-child(3) a:hover {
+.b a:hover {
     background-color: white;
     color: black;
+   
 }
 .click a:hover {
     background-color: white;
     color: black;
+   
 }
 
 .b a svg { 
-    width: lem;
+    /* width: lem; */
+    /* margin: auto; */
 }   
-.click a svg { 
-    width: lem;
-} 
+/* .click a svg {  */
+    /* width: lem; */
+    /* margin: auto; */
+/* } 
 
 .hq{
     display: block;
     text-align: center;
     justify-content: center;
-    margin-top:0px;
-    /* flex: auto;
-    align-items: center; */
-    
-    background-color:#dadbf1;
-    padding: 80px 30px 115px 30px; 
-    color: black;
+    /* margin-top:0px; */
+    /* background-color:#dadbf1; */
+    /* padding: 80px 30px 115px 30px;  */
+    /* color: black;
     font-size: 50px;
-}
+    
+}  
+
+/* .hp{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em 
+} */
 
 
 .input{
@@ -114,6 +113,7 @@ a {
     align-items: center;
     justify-content: center;
     font-size: 30px; 
+   
     
 }
 /* .hq.input {
@@ -130,3 +130,18 @@ a {
     background-image: none;
     border: 1px solid #dee2e6;
 } */
+
+
+
+.hq{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top:0px;
+
+    background-color:#dadbf1;
+    padding: 80px 30px 115px 30px; 
+     color: black;
+    font-size: 50px;
+    
+}  
