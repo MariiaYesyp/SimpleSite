@@ -145,3 +145,48 @@ a {
     font-size: 50px;
     
 }  
+.wrapper ul {
+    overflow: hidden;
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none;
+  }
+  .wrapper li {
+    float: left;
+    width: calc(33.333333% - 20px);
+    margin: 0 10px 20px 10px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  .media {
+    border: 2px solid #f76707;
+    border-radius: 5px;
+    background-color: #fff4e6;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "img content";
+    margin-bottom: 1em;
+  }
+  .media::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .media .text {
+    padding: 10px;
+    align-self: end;
+  }
+  
+  /* old code we can't remove */
+  .media .image {
+    float: left;
+    width: 150px;
+    margin-right: 20px;
+  }
+    
